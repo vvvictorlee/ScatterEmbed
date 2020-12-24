@@ -1,7 +1,6 @@
 {
   "name": "scatter-embed",
   "version": "12.0.0",
-  "private": true,
   "buttonText": "Scatter Desktop Embed",
   "author": {
     "name": "GetScatter",
@@ -19,7 +18,7 @@
     "start": "npm run dev",
     "testfile": "mocha --require test/babel --exit --timeout 1000000",
     "test": "npm run testfile \"test/**/*.spec.js\" --timeout 1000000",
-    "walletpack": "yarn add @walletpack/core @walletpack/eosio @walletpack/bitcoin @walletpack/tron @walletpack/ethereum",
+    "walletpack": "yarn add @walletpack/core @walletpack/eosio roxewalletpack @walletpack/bitcoin @walletpack/tron @walletpack/ethereum",
     "langs": "node src/localization/check.js"
   },
   "dependencies": {
@@ -27,6 +26,7 @@
     "@walletpack/bitcoin": "^1.0.38",
     "@walletpack/core": "^1.0.35",
     "@walletpack/eosio": "^0.0.44",
+    "roxewalletpack": "^0.0.78",
     "@walletpack/ethereum": "^0.0.41",
     "@walletpack/tron": "^0.0.44",
     "aes-oop": "^1.0.4",
@@ -44,7 +44,6 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/preset-env": "^7.5.4",
-    "@fortawesome/fontawesome-pro": "^5.11.2",
     "archiver": "^3.1.1",
     "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.6",
