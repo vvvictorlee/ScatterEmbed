@@ -26,7 +26,7 @@
     "@walletpack/bitcoin": "^1.0.38",
     "@walletpack/core": "^1.0.35",
     "@walletpack/eosio": "^0.0.44",
-    "roxewalletpack": "^0.0.78",
+    "walletpack_roxe": "^0.0.79",
     "@walletpack/ethereum": "^0.0.41",
     "@walletpack/tron": "^0.0.44",
     "aes-oop": "^1.0.4",
